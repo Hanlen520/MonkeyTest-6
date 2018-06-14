@@ -25,6 +25,7 @@ def init_testcase02():
     if 200 == response.status_code:
         print response.content.decode("unicode-escape")
 
+
 if __name__ == '__main__':
     init_testcase01()
     init_testcase02()

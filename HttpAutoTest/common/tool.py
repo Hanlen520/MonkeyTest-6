@@ -22,7 +22,7 @@ class Tool():
         md5_pwd = hashlib.md5()
         # 158 9544b351297a40b18cb5252eb7cdedd60 0876019
         md5_pwd.update(str)
-        print u"sign加密后：",md5_pwd.hexdigest()
+        # print u"sign加密后：",md5_pwd.hexdigest()
         return md5_pwd.hexdigest()
 
     # 接口sign加密
@@ -47,7 +47,7 @@ class Tool():
 
         # 转换大写
         upper_str = str(md5_str).upper()
-        print upper_str
+        # print upper_str
 
         data['sign'] = upper_str
 
@@ -90,6 +90,8 @@ if __name__ == '__main__':
     print tool.signfun(data)
 
     print time.localtime()
+
+    print tool.signfun({})
 
 
 
