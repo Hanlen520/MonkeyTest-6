@@ -2,32 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c4f9073-cb6b-4b92-be38-3c6a43bc6594" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HttpAutoTest/testcase/http.xls" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HttpAutoTest/testcase/log/log20180614110251.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HttpAutoTest/testcase/log/log20180614110329.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HttpAutoTest/testcase/log/log20180614110807.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HttpAutoTest/testcase/log/log20180614111301.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HttpAutoTest/testcase/log/log20180614111359.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HttpAutoTest/testcase/log/log20180614111435.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HttpAutoTest/testcase/readfile.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/HttpRunnerManager" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/TestModel/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/TestModel/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/TestModel/apps.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/TestModel/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/TestModel/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/TestModel/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/TestModel/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/TestModel/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/study/20180613.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/study/20180614.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/study/http.xls" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/study/locustTest.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/newapp/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/newapp/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/newapp/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/newapp/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/newapp/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/newapp/templates/home.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/newapp/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MySite/newapp/views.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/MonkeyTest.iml" afterPath="$PROJECT_DIR$/.idea/MonkeyTest.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/HttpAutoTest/common/tool.py" afterPath="$PROJECT_DIR$/HttpAutoTest/common/tool.py" />
-      <change beforePath="$PROJECT_DIR$/HttpAutoTest/testcase/app_init.py" afterPath="$PROJECT_DIR$/HttpAutoTest/testcase/app_init.py" />
-      <change beforePath="$PROJECT_DIR$/HttpAutoTest/testcase/app_login.py" afterPath="$PROJECT_DIR$/HttpAutoTest/testcase/app_login.py" />
+      <change beforePath="$PROJECT_DIR$/HttpRunnerManager" afterPath="$PROJECT_DIR$/HttpRunnerManager" />
+      <change beforePath="$PROJECT_DIR$/MySite/MySite/settings.py" afterPath="$PROJECT_DIR$/MySite/MySite/settings.py" />
+      <change beforePath="$PROJECT_DIR$/MySite/MySite/urls.py" afterPath="$PROJECT_DIR$/MySite/MySite/urls.py" />
+      <change beforePath="$PROJECT_DIR$/MySite/MySite/view.py" afterPath="$PROJECT_DIR$/MySite/MySite/view.py" />
+      <change beforePath="$PROJECT_DIR$/MySite/run.bat" afterPath="$PROJECT_DIR$/MySite/run.bat" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,13 +42,72 @@
     <SUITE FILE_PATH="coverage/MonkeyTest$emails.coverage" NAME="emails Coverage Results" MODIFIED="1528964743173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MySite/MySite/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#640#672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MySite/newapp/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MySite/newapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+                <element signature="e#280#314#0" expanded="false" />
+                <element signature="e#338#428#0" expanded="false" />
+                <element signature="e#457#498#0" expanded="false" />
+                <element signature="e#523#557#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MySite/newapp/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MySite/MySite/view.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -81,11 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HttpRunnerManager/httprunner/compat.py" />
-        <option value="$PROJECT_DIR$/HttpRunnerManager/httprunner/try.py" />
-        <option value="$PROJECT_DIR$/HttpRunnerManager/httprunner/utils.py" />
-        <option value="$PROJECT_DIR$/HttpRunnerManager/httprunner/locusts.py" />
-        <option value="$PROJECT_DIR$/HttpRunnerManager/httprunner/events.py" />
         <option value="$PROJECT_DIR$/HttpRunnerManager/httprunner/built_in.py" />
         <option value="$PROJECT_DIR$/HttpRunnerManager/httprunner/__init__.py" />
         <option value="$PROJECT_DIR$/HttpRunnerManager/httprunner/task.py" />
@@ -132,6 +175,11 @@
         <option value="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/testcase.py" />
         <option value="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/common.py" />
         <option value="$PROJECT_DIR$/HttpRunnerManager/ApiManager/templatetags/custom_tags.py" />
+        <option value="$PROJECT_DIR$/MySite/MySite/settings.py" />
+        <option value="$PROJECT_DIR$/MySite/MySite/view.py" />
+        <option value="$PROJECT_DIR$/MySite/newapp/templates/home.html" />
+        <option value="$PROJECT_DIR$/MySite/newapp/views.py" />
+        <option value="$PROJECT_DIR$/MySite/MySite/urls.py" />
       </list>
     </option>
   </component>
@@ -142,10 +190,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="341" />
-    <option name="y" value="91" />
+    <option name="x" value="326" />
+    <option name="y" value="200" />
     <option name="width" value="1505" />
-    <option name="height" value="953" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -170,11 +218,6 @@
             <path>
               <item name="MonkeyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MonkeyTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MonkeyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MonkeyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="HttpRunnerManager" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,15 +370,23 @@
       <option name="presentableId" value="Default" />
       <updated>1523347674013</updated>
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1528969613991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528969613991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="341" y="91" width="1505" height="953" extended-state="0" />
+    <frame x="326" y="200" width="1505" height="828" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23133415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925338" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19219653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2152249" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -357,8 +408,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -375,96 +440,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/ProgramData/Anaconda2/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/httprunner/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="17" />
-          <folding>
-            <element signature="e#19#33#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/HttpRunnerManager/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/tryt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/tasks1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/task1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/task1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/httprunner/__about__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HttpRunnerManager/httprunner/report.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -567,16 +542,6 @@
         <state relative-caret-position="22">
           <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding>
-            <element signature="e#46#78#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,7 +708,7 @@
         <state relative-caret-position="248">
           <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
-            <element signature="e#46#57#0" expanded="true" />
+            <element signature="e#46#57#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -769,7 +734,7 @@
         <state relative-caret-position="132">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
-            <element signature="e#19#29#0" expanded="true" />
+            <element signature="e#19#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -779,7 +744,7 @@
         <state relative-caret-position="-6488">
           <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <marker date="1528966766842" expanded="true" signature="9417:9427" ph="..." />
             <marker date="1528966766842" expanded="true" signature="9705:9798" ph="..." />
             <marker date="1528966766842" expanded="true" signature="10004:10097" ph="..." />
@@ -801,7 +766,7 @@
         <state relative-caret-position="330">
           <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
-            <element signature="e#46#55#0" expanded="true" />
+            <element signature="e#46#55#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -811,6 +776,114 @@
         <state relative-caret-position="352">
           <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#46#78#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/newapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/TestModel/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/MySite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/TestModel/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/templates/mysite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/newapp/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/newapp/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/MySite/view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/MySite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySite/newapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#280#314#0" expanded="false" />
+            <element signature="e#338#428#0" expanded="false" />
+            <element signature="e#457#498#0" expanded="false" />
+            <element signature="e#523#557#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
