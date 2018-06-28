@@ -1,0 +1,9 @@
+-   config:
+        name: base_url config
+        request:
+            base_url: http://api.sdhh.51lianqian.net:7035
+-   test:
+        name: find
+        request:
+            method: get
+            url: /v1/init/version

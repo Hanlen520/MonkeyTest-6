@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+{% extends 'base.html' %}
+
+{% block title %}欢迎光临首页{% endblock %}
+{% block content %}
+<div>列表：</div>
+    {% for i in studylist %}
+    {{ i }}
+    {% endfor %}
+<div>列表2：</div>
+    {% for key,value in info_dict.items %}
+    {{ key }}:{{ value }}
+    {% endfor %}
+<div>
+    当前网址加参数:{{ request.path }}
+    {{ request.GET.urlencode }}
+</div>
+<div>
+    <a href="/httpTest/">httpTest</a>
+</div>
+
+{% endblock %}
+
+
+</body>
+</html>

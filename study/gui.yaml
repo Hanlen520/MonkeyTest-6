@@ -1,0 +1,9 @@
+-   config:
+        name: base_url config
+        request:
+            base_url: 'http://sdhhapi1.51lianqian.net:7041'
+-   test:
+        name: !!python/unicode 'find3'
+        !!python/unicode 'request':
+            !!python/unicode 'method': !!python/unicode 'GET'
+            !!python/unicode 'url': !!python/unicode '/v1/init/version'

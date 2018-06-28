@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css"/>
+
+    <script src="../static/assets/js/jquery.sticky.js"></script>
+    <script src="http://cdn.amazeui.org/amazeui/2.7.2/js/amazeui.min.js"></script>
+    <title>Test</title>
+
+</head>
+<body>
+    <div>
+        <ul>
+            <li>http://api.sdhh.51lianqian.net:7035/v1/init/version</li>
+            <li>http://api.sdhh.51lianqian.net:7035/v1/data/notice</li>
+        </ul>
+        <table border="1">
+            <tr>
+                <th>HTTP</th>
+                <th>DATA</th>
+                <th>执行</th>
+            </tr>
+            <tr>
+                <td>http://api.sdhh.51lianqian.net:7035/v1/init/version</td>
+                <td>-</td>
+                <td><button type="button">执行</button></td>
+            </tr>
+            <tr>
+                <td>http://api.sdhh.51lianqian.net:7035/v1/data/notice</td>
+                <td>-</td>
+                <td><button type="button">执行</button></td>
+            </tr>
+        </table>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+    <div>
+        <form class="am-form am-g" id='test_list' name="test_list">
+            <table width="100%" class="am-table am-table-bordered am-table-radius am-table-striped">
+                <thead>
+                <tr class="am-success">
+                    <th class="table-check"><input type="checkbox" id="select_all"/></th>
+                    <th class="table-title">序号</th>
+                    <th class="table-type">名称</th>
+                    <th class="table-type">所属项目</th>
+                    <th class="table-type">所属模块</th>
+                    <th class="table-type">创建者</th>
+                    <th width="163px" class="table-title">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+					<tr>
+                        <td><input type="checkbox" name="testcase_1" value="1"></td>
+                        <td>1</td>
+                        <td>
+                            <div style="float: left">
+                                <a href="/edit_case/" data-am-collapse="{target: '#pre_case1'}">查询01</a>
+                                <nav>
+                                    <ul id="pre_case1" class="am-nav am-collapse">
+
+                                    </ul>
+                                </nav>
+                            </div>
+                        </td>
+                        <td>sdhh</td>
+                        <td>查询</td>
+                        <td>18192496382</td>
+                        <td>
+                            <div class="am-btn-toolbar">
+                                <div class="am-btn-group am-btn-group-xs">
+                                    <button type="button" class="am-btn am-btn-default am-btn-xs am-text-secondary am-round" data-am-popover="{content: '运行', trigger: 'hover focus'}" onclick="run_test('1')">
+                                        <span class="am-icon-bug"></span>
+                                    </button>
+                                    <button type="button" class="am-btn am-btn-default am-btn-xs am-text-danger am-round" data-am-popover="{content: '复制', trigger: 'hover focus'}" onclick="copy('#copy_list', '1')"><span class="am-icon-copy"></span></button>
+                                    <button type="button" class="am-btn am-btn-default am-btn-xs am-text-danger am-round" data-am-popover="{content: '删除', trigger: 'hover focus'}" onclick="invalid('1')"><span class="am-icon-trash-o"></span></button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="am-btn-group am-btn-group-xs">
+                <button type="button" class="am-btn am-btn-default" onclick="location='/api/add_case/'"><span
+                        class="am-icon-plus"></span> 新增用例
+                </button>
+                <button type="button" class="am-btn am-btn-default" onclick="location='/api/add_config/'"><span
+                        class="am-icon-plus"></span> 新增配置
+                </button>
+            </div>
+
+            <ul class="am-pagination am-fr">
+                {{ page_list }}
+            </ul>
+            <hr/>
+        </form>
+    </div>
+</body>
+</html>

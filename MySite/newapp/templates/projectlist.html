@@ -1,0 +1,63 @@
+{% extends "bindex.html" %}
+{% block title %}项目信息{% endblock %}
+{% load staticfiles %}
+{% block content %}
+    <div class="admin-biaogelist">
+        <div class="listbiaoti am-cf">
+            <ul class="am-icon-flag on"> 项目列表</ul>
+            <dl class="am-icon-home" style="float: right;">当前位置： 用例管理 > <a href="#">项目列表</a></dl>
+        </div>
+
+        <div>
+            <form class="am-form am-g" id='projectlist' name="projectlist">
+            <table width="100%" class="am-table am-table-bordered am-table-radius am-table-striped">
+                <thead>
+                <tr class="am-success">
+                    <th class="table-check"><input type="checkbox" id="select_all"/></th>
+                    <th class="table-title">序号</th>
+                    <th class="table-title">项目名称</th>
+                    <th class="table-type">负责人</th>
+                    <th class="table-type">测试人员</th>
+                    <th class="table-type">开发人员</th>
+                    <th class="table-type">发布应用</th>
+                    <th class="table-type">创建时间</th>
+                    <th width="163px" class="table-title">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for item in page_list %}
+					<tr>
+                        <td><input type="checkbox" name="project_{{ item.id }}" value="{{ item.id }}"/></td>
+                        <td>{{ forloop.counter}}</td>
+                        <td>{{ item.project_name }}</td>
+                        <td>{{ item.responsible_name }}</td>
+                        <td>{{ item.test_user }}</td>
+                        <td>{{ item.dev_user }}</td>
+                        <td>{{ item.publish_app }}</td>
+                        <td>{{ item.create_time }}</td>
+                        <td>
+                            <div class="am-btn-toolbar">
+                                <div class="am-btn-group am-btn-group-xs">
+                                    <button type="button" class="am-btn am-btn-default am-btn-xs am-text-secondary am-round" data-am-popover="{content: '运行', trigger: 'hover focus'}" onclick="run_test('1')">
+                                        <span class="am-icon-bug"></span>
+                                    </button>
+                                    <button type="button" class="am-btn am-btn-default am-btn-xs am-text-danger am-round" data-am-popover="{content: '复制', trigger: 'hover focus'}" onclick="copy('#copy_list', '1')"><span class="am-icon-copy"></span></button>
+                                    <button type="button" class="am-btn am-btn-default am-btn-xs am-text-danger am-round" data-am-popover="{content: '删除', trigger: 'hover focus'}" onclick="invalid('1')"><span class="am-icon-trash-o"></span></button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            <ul class="am-pagination am-fr">
+                <!--{{ page_list }}-->
+            </ul>
+            <hr/>
+        </form>
+        </div>
+    </div>
+
+    <script>
+    </script>
+{% endblock %}

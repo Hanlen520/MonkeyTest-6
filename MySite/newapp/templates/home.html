@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>自强学堂</title>
+    <title>{% block title %}默认标题{% endblock %} - 自强学堂</title>
 </head>
 <body>
-
+开始计算：
 <a href="/add2/4/5/">计算 4+5</a>
+
+
+{% include 'nav.html' %}
+
+{% block content %}
+<div>这里是默认内容，所有继承自这个模板的，如果不覆盖就显示这里的默认内容。</div>
+{% endblock %}
+
+
+<form action="/oneapp/add/" method="get">
+    a: <input type="text" id="a" name="a"> <br>
+    b: <input type="text" id="b" name="b"> <br>
+    <p>result: <span id='result'></span></p>
+    <button type="button" id='sum'>提交</button>
+</form>
+<script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+      $("#sum").click(function(){
+        var a = $("#a").val();
+        var b = $("#b").val();
+
+        $.get("/add/",{'a':a,'b':b}, function(ret){
+            $('#result').html(ret)
+        })
+      });
+    });
+</script>
 
 </body>
 </html>

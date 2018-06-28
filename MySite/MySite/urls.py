@@ -17,7 +17,7 @@ from django.conf.urls import url
 # from django.contrib import admin
 
 from newapp.views import *
-
+import settings
 urlpatterns = [
     # url(r'^admin/', admin.site.urls),
     url(r'^$', index),
@@ -26,4 +26,15 @@ urlpatterns = [
     url(r'^home/$', home, name='home'),
     url(r'^add2/(\d+)/(\d+)/$', old_add2_redirect, name='add2'),
     url(r'^new_add/(\d+)/(\d+)/$', add2, name='add2'),
+    url(r'^nav/$', nav, name='nav'),
+    url(r'^httpTest/$', httpTest, name='httpTest'),
+    url(r'^edit_case/$', edit_case, name='edit_case'),
+    url(r'^runcase/$', runcase, name='runcase'),
+    url(r'^gobindex/$', gobindex, name='gobindex'),
+    url(r'^testlist/$', testlist, name='testlist'),
+    url(r'^addcase/$', addcase, name='addcase'),
+    url(r'^addproject/$', addproject, name='addproject'),
+    url(r'^projectlist/$', projectlist, name='projectlist'),
+    url(r'^add_project/$', add_project, name='add_project'),
+    url(r'^test/$', test, name='test'),
 ]
