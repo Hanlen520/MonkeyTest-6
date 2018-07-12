@@ -15,6 +15,7 @@ import time
 import yaml
 import os
 import json
+from django.core.paginator import Paginator, InvalidPage, EmptyPage
 
 # Create your views here.
 def index(request):
@@ -54,8 +55,11 @@ def gobindex(request):
 def testlist(request):
     return render(request, 'testlist.html')
 
+def jsontest(request):
+    return render(request, 'json.html')
+
 def addcase(request):
-    projectlist = models.ProjectInfo.objects.all().values(
+    projectlists = models.ProjectInfo.objects.all().values(
         'id', 'project_name', 'responsible_name', 'test_user', 'dev_user', 'publish_app', 'simple_desc', 'other_desc',
         'create_time')
     return render(request, 'addcase.html',{'projectlist':projectlist})
@@ -64,7 +68,26 @@ def addproject(request):
     return render(request,'addproject.html')
 
 def test(request):
-    return render(request, 'testcasetry.html')
+    projectlists = models.ProjectInfo.objects.all().values(
+        'id', 'project_name', 'responsible_name', 'test_user', 'dev_user', 'publish_app', 'simple_desc', 'other_desc',
+        'create_time')
+    # projectlists = models.ProjectInfo.objects.all().values('id')
+    paginator = Paginator(projectlists, 3)  # Show 25 contacts per page
+
+    # Make sure page request is an int. If not, deliver first page.
+    try:
+        page = int(request.GET.get('page', '1'))
+    except ValueError:
+        page = 1
+
+    # If page request (9999) is out of range, deliver last page of results.
+    try:
+        projectlist = paginator.page(page)
+    except (EmptyPage, InvalidPage):
+        projectlist = paginator.page(paginator.num_pages)
+
+    return render_to_response('testcasetry.html', {"projectlist": projectlist})
+    # return render(request, 'testcasetry.html')
 
 @csrf_exempt
 def add_project(request):
@@ -96,10 +119,27 @@ def add_project(request):
     )
     return HttpResponse('OK')
 
+@csrf_exempt
 def projectlist(request):
-    projectlist = models.ProjectInfo.objects.all().values(
-        'id','project_name','responsible_name','test_user','dev_user','publish_app','simple_desc','other_desc','create_time')
-    return render(request, 'projectlist.html',{'page_list':projectlist})
+    if ''!= request.body:
+        str = json.loads(request.body.decode('utf-8'))
+    projectlists = models.ProjectInfo.objects.all().values(
+        'id', 'project_name', 'responsible_name', 'test_user', 'dev_user', 'publish_app', 'simple_desc', 'other_desc',
+        'create_time')
+    paginator = Paginator(projectlists, 10)  # Show 10 contacts per page
+
+    # Make sure page request is an int. If not, deliver first page.
+    try:
+        page = int(request.GET.get('page', '1'))
+    except ValueError:
+        page = 1
+
+    # If page request (9999) is out of range, deliver last page of results.
+    try:
+        projectlist = paginator.page(page)
+    except (EmptyPage, InvalidPage):
+        projectlist = paginator.page(paginator.num_pages)
+    return render(request, 'projectlist.html',{'projectlist':projectlist})
 
 @csrf_exempt
 def runcase(request):
@@ -142,7 +182,6 @@ def runcase(request):
     file_path=os.path.join(testcase_dir_path, "find.yml")
     with io.open(file_path, 'w', encoding='utf-8') as stream:
         yaml.dump(testcase_list, stream, indent=4, default_flow_style=False, encoding='utf-8')
-
 
     runner.run(testcase_dir_path)
 

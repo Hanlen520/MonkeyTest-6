@@ -37,4 +37,5 @@ urlpatterns = [
     url(r'^projectlist/$', projectlist, name='projectlist'),
     url(r'^add_project/$', add_project, name='add_project'),
     url(r'^test/$', test, name='test'),
+    url(r'^jsontest/$', jsontest, name='jsontest'),
 ]
