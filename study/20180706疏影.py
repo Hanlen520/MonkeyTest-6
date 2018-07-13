@@ -71,6 +71,21 @@ def draw_fun():
     for i in range(5, 0, -1):
         print i * '*'
 
+def get_dict(folder):
+    s = dict()
+    for file_name in os.listdir(folder):
+        file_name=file_name.decode('gbk')
+        path=os.path.join(folder,file_name)
+        s[file_name]=path
+    print s
+
+def Test1(rootDir):
+    list_dirs = os.walk(rootDir)
+    for root, dirs, files in list_dirs:
+        for d in dirs:
+            print os.path.join(root, d).decode('gbk')
+        for f in files:
+            print os.path.join(root, f).decode('gbk')
 
 if __name__ == '__main__':
     # lst = [3,4,5,6,6,7,8,7,7,6,9,17,6]
@@ -93,6 +108,22 @@ if __name__ == '__main__':
 
     # draw_fun()
     rootdir = r'E:\tempTest'
-    filelst=[]
-    filelst = file_list(rootdir,filelst)
-    print filelst
+    # filelst=[]
+    # filelst = file_list(rootdir,filelst)
+    # print filelst
+
+    # get_dict(rootdir)
+
+    # 遍历某个文件下的所有文件
+    # filelst = os.listdir(rootdir)
+    # print filelst
+    # for file in filelst:
+    #     path = os.path.join(rootdir,file)
+    #     if os.path.isfile(path):
+    #         print file
+    #
+    # print os.getcwd()
+    #
+    # print os.path.exists(r'E:\temp1')
+
+    Test1(rootdir)

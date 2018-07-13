@@ -58,11 +58,14 @@ def testlist(request):
 def jsontest(request):
     return render(request, 'json.html')
 
+def aceTest(request):
+    return render(request, 'aceTest.html')
+
 def addcase(request):
     projectlists = models.ProjectInfo.objects.all().values(
         'id', 'project_name', 'responsible_name', 'test_user', 'dev_user', 'publish_app', 'simple_desc', 'other_desc',
         'create_time')
-    return render(request, 'addcase.html',{'projectlist':projectlist})
+    return render(request, 'addcase.html',{'projectlist':projectlists})
 
 def addproject(request):
     return render(request,'addproject.html')
@@ -120,7 +123,7 @@ def add_project(request):
     return HttpResponse('OK')
 
 @csrf_exempt
-def projectlist(request):
+def project_list(request):
     if ''!= request.body:
         str = json.loads(request.body.decode('utf-8'))
     projectlists = models.ProjectInfo.objects.all().values(
