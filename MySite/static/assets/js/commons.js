@@ -341,7 +341,6 @@ function del_row(id) {
     }
 }
 
-
 function add_row(id) {
     var tabObj = document.getElementById(id);//获取添加数据的表格
     var rowsNum = tabObj.rows.length;  //获取当前行数
@@ -395,7 +394,6 @@ function add_params(id) {
     newTdObj1.innerHTML = key;
     newTdObj2.innerHTML = value;
 }
-
 
 function init_acs(language, theme, editor) {
     editor.setTheme("ace/theme/" + theme);

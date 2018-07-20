@@ -10,6 +10,7 @@ from HttpAutoTest.common.tool import Tool
 # URL = 'http://api.sdhh.51lianqian.net:7035'
 URL = 'http://sdhhapi1.51lianqian.net:7041'
 URL_7041 = 'http://sdhhapi1.51lianqian.net:7041'
+
 CELLPHONE = '13572489850'
 
 HEADER_IOS = {

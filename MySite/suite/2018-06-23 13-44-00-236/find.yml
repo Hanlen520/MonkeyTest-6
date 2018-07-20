@@ -1,9 +1,0 @@
--   !!python/unicode 'config':
-        !!python/unicode 'name': !!python/unicode 'base_url config'
-        !!python/unicode 'request':
-            !!python/unicode 'base_url': !!python/unicode 'http://api.sdhh.51lianqian.net:7035'
--   !!python/unicode 'test':
-        !!python/unicode 'name': !!python/unicode 'find'
-        !!python/unicode 'request':
-            !!python/unicode 'method': !!python/unicode 'GET'
-            !!python/unicode 'url': !!python/unicode ''

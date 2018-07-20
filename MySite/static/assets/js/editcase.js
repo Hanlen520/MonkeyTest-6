@@ -1,43 +1,3 @@
-editor = null;
-
-$('#DataType').on('change', function () {
-    if ($('#DataType').val() === 'json') {
-        $('#add_data').attr('disabled', true);
-        $('#del_data').attr('disabled', true);
-        $('#data').remove();
-        var json_text = "<span style=\"font-size:10px;\" id=\"json-text\">\n" +
-            "                                <div style=\"margin-left: 0px; margin-top: 5px; height: 200px\">" +
-            "<pre id=\"code\" class=\"ace_editor\" style=\"margin-top: 0px; margin-bottom: 0px; min-height: 200px;\">\n" +
-            "    <textarea>{\"key\":\"value\"}</textarea>\n" +
-            "</pre></div></span>";
-        $('#form_request_data').append(json_text);
-        editor = ace.edit("code");
-        init_acs('json', 'github', editor);
-    } else {
-        var table = '<table class="table table-hover table-condensed table-bordered table-striped" id="data">\n' +
-            '                                <caption>' + $('#DataType').val() + ':</caption>\n' +
-            '                                <thead>\n' +
-            '                                <tr class="active text-success">\n' +
-            '                                    <th width="5%" align="center">Option</th>\n' +
-            '                                    <th width="30%" align="center">Key</th>\n' +
-            '                                    <th width="5%" align="center">Type</th>\n' +
-            '                                    <th width="60%" align="center">Value</th>\n' +
-            '                                </tr>\n' +
-            '                                </thead>\n' +
-            '                                <tbody>\n' +
-            '                                </tbody>\n' +
-            '                            </table>';
-
-        $('#add_data').text('add ' + $('#DataType').val());
-        $('#del_data').text('del ' + $('#DataType').val());
-
-        $('#add_data').removeAttr("disabled");
-        $('#del_data').removeAttr("disabled");
-        $('#data').remove();
-        $('#json-text').remove();
-        $('#form_request_data').append(table);
-    }
-});
 
 $("#tab-test").on("click", "li", function () {
     $(this).addClass("am-active").siblings("li").removeClass("am-active");
@@ -103,4 +63,9 @@ function post(url, params) {
     document.body.appendChild(temp);
     temp.submit();
     return temp;
+}
+
+function case_ajax(type, editor) {
+    var caseInfo = $("#form_message").serializeJSON();
+    alert("ok");
 }

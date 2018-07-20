@@ -24,7 +24,7 @@ class appiumDemo(unittest.TestCase):
     def test3(self):
         time.sleep(5)
         list1=self.driver.find_elements_by_id("com.ss.android.article.lite:id/lr")
-        self.assertEqual(list1[0].text,"推荐")
+        self.assertEqual(list1[0].text,"推荐1")
         self.assertEqual(list1[1].text,"视频")
         self.assertEqual(list1[2].text,"热点")
         self.assertEqual(list1[3].text,"北京")
@@ -50,7 +50,7 @@ class appiumDemo(unittest.TestCase):
             else:
                 print hh[z].text
                 raise TypeError
-    def test3(self):
+    def test03(self):
         time.sleep(5)
         self.driver.find_element_by_name("任务").click()
         time.sleep(4)
@@ -84,6 +84,7 @@ class appiumDemo(unittest.TestCase):
         uu=self.driver.find_element_by_id("com.ss.android.article.lite:id/es")
         self.assertEqual(uu.text,"手机登录")
 
+
 '''
         #查找控件的方式
         #1.通过id查找
@@ -101,12 +102,12 @@ class appiumDemo(unittest.TestCase):
 
         #对控件操作  以下以element代表控件
         #获取手机屏幕分辨率
-        #width=self.driver.get_window_size()['width']  获取宽
-        #height=self.driver.get_window_size()['height'] 获取高
+        #width=self.driver.get_window_size()['width']  获取宽  920
+        #height=self.driver.get_window_size()['height'] 获取高  1080
         #1.点击
         #element.click()
         #2.点击坐标  手机左上角 (0,0)
-        #self.driver.execute_script("mobile: tap",{"x":200,"y":640})
+        #self.driver.execute_script("mobile: tap",{"x":width*0.1,"y":640})
         #3.tap点击
         #TouchAction(self.driver).tap(element).perform()
 

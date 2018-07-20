@@ -2,10 +2,59 @@
 {% block title %}用例信息{% endblock %}
 {% load staticfiles %}
 {% block content %}
+    <div class="am-modal am-modal-confirm" tabindex="-1" id="my-invalid">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">HttpRunnerManager</div>
+            <div class="am-modal-bd">
+                亲，请确认该用例是否被其他用例依赖后再谨慎删除哦
+            </div>
+            <div class="am-modal-footer">
+                <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+                <span class="am-modal-btn" data-am-modal-confirm>确定</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="am-modal am-modal-confirm" tabindex="-1" id="select_env">
+        <div class="am-modal-dialog">
+            <div class="am-modal-hd">选择运行环境</div>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="control-label col-sm-3"
+                           style="font-weight: inherit; font-size: small ">运行环境:</label>
+                    <div class="col-sm-8">
+                        <select class="form-control" id="env_name" name="env_name">
+                            <option value="">自带环境</option>
+                            {% for foo in envinfo %}
+                                <option value="{{ foo.base_url }}">{{ foo.env_name }}</option>
+                            {% endfor %}
+
+                        </select>
+                    </div>
+                </div>
+            </form>
+            <div class="am-modal-footer">
+                <span class="am-modal-btn" data-am-modal-cancel>取消</span>
+                <span class="am-modal-btn" data-am-modal-confirm>确定</span>
+            </div>
+        </div>
+    </div>
+
     <div class="admin-biaogelist">
         <div class="listbiaoti am-cf">
             <ul class="am-icon-flag on"> 用例列表</ul>
-            <dl class="am-icon-home" style="float: right;">当前位置： 用例管理 > <a href="#">用例列表</a></dl>
+            <dl class="am-icon-home" style="float: right;"> 当前位置： 用例管理 > <a href="#">用例展示</a></dl>
+            <dl>
+                <button type="button" class="am-btn am-btn-primary am-round am-btn-xs am-icon-plus"
+                        onclick="location='/addcase/'">新增用例
+                </button>
+                <button type="button" class="am-btn am-btn-warning am-round am-btn-xs am-icon-plus"
+                        onclick="location='/env_list/'">新增环境配置
+                </button>
+                <button type="button" class="am-btn am-btn-danger am-round am-btn-xs am-icon-bug"
+                        onclick="my_submit()">运行
+                </button>
+            </dl>
         </div>
 
         <div>
@@ -17,55 +66,59 @@
                     <th class="table-title">序号</th>
                     <th class="table-type">名称</th>
                     <th class="table-type">所属项目</th>
-                    <th class="table-type">所属模块</th>
                     <th class="table-type">创建者</th>
                     <th width="163px" class="table-title">操作</th>
                 </tr>
                 </thead>
                 <tbody>
+                {% for item in testcaselist %}
 					<tr>
-                        <td><input type="checkbox" name="testcase_1" value="1"></td>
-                        <td>1</td>
-                        <td>
-                            <div style="float: left">
-                                <a href="/edit_case/" data-am-collapse="{target: '#pre_case1'}">查询01</a>
-                                <nav>
-                                    <ul id="pre_case1" class="am-nav am-collapse">
-
-                                    </ul>
-                                </nav>
-                            </div>
-                        </td>
-                        <td>sdhh</td>
-                        <td>查询</td>
-                        <td>18192496382</td>
+                        <td><input type="checkbox" name="project_{{ item.id }}" value="{{ item.id }}"/></td>
+                        <td>{{ forloop.counter}}</td>
+                        <td>{{ item.test_name }}</td>
+                        <td>{{ item.belong_project }}</td>
+                        <td>{{ item.author }}</td>
                         <td>
                             <div class="am-btn-toolbar">
                                 <div class="am-btn-group am-btn-group-xs">
-                                    <button type="button" class="am-btn am-btn-default am-btn-xs am-text-secondary am-round" data-am-popover="{content: '运行', trigger: 'hover focus'}" onclick="run_test('1')">
+                                    <button type="button"
+                                            class="am-btn am-btn-default am-btn-xs am-text-secondary am-round"
+                                            data-am-popover="{content: '运行', trigger: 'hover focus'}"
+                                            onclick="run_test('{{ item.id }}')">
                                         <span class="am-icon-bug"></span>
                                     </button>
                                     <button type="button" class="am-btn am-btn-default am-btn-xs am-text-danger am-round" data-am-popover="{content: '复制', trigger: 'hover focus'}" onclick="copy('#copy_list', '1')"><span class="am-icon-copy"></span></button>
-                                    <button type="button" class="am-btn am-btn-default am-btn-xs am-text-danger am-round" data-am-popover="{content: '删除', trigger: 'hover focus'}" onclick="invalid('1')"><span class="am-icon-trash-o"></span></button>
+                                    <button type="button" class="am-btn am-btn-default am-btn-xs am-text-danger am-round"
+                                            data-am-popover="{content: '删除', trigger: 'hover focus'}" onclick="invalid('{{ item.id }}')">
+                                        <span class="am-icon-trash-o"></span></button>
                                 </div>
                             </div>
                         </td>
                     </tr>
+                {% endfor %}
                 </tbody>
             </table>
 
             <div class="am-btn-group am-btn-group-xs">
-                <button type="button" class="am-btn am-btn-default" onclick="location='/api/add_case/'"><span
+                <button type="button" class="am-btn am-btn-default" onclick="location='/addcase/'"><span
                         class="am-icon-plus"></span> 新增用例
                 </button>
-                <button type="button" class="am-btn am-btn-default" onclick="location='/api/add_config/'"><span
-                        class="am-icon-plus"></span> 新增配置
-                </button>
             </div>
+             <div class="pagination">
+                <span class="step-links">
+                    {% if testcaselist.has_previous %}
+                        <a href="?page={{ projectlist.previous_page_number }}">上一页</a>
+                    {% endif %}
 
-            <ul class="am-pagination am-fr">
-                {{ page_list }}
-            </ul>
+                    <span class="current">
+                        Page {{ testcaselist.number }} of {{ testcaselist.paginator.num_pages }}.
+                    </span>
+
+                    {% if testcaselist.has_next %}
+                        <a href="?page={{ projectlist.next_page_number }}">下一页</a>
+                    {% endif %}
+                </span>
+             </div>
             <hr/>
         </form>
         </div>
@@ -73,13 +126,26 @@
     </div>
 
     <script>
-        // $('#my-copy').modal({
-        //         relatedTarget: this
-        //         // onConfirm: function () {
-        //         //     copy_data_ajax(id, '/api/test_list/1/')
-        //         // },
-        //         // onCancel: function () {
-        //         // }
-        // });
+        function my_submit() {
+            if ($("input:checked").size() == 0) {
+                alert("请至少选择一条用例运行！");
+            } else {
+                $('#select_env').modal({
+                        relatedTarget: this,
+                        onConfirm: function () {
+                            var data = $("#test_list").serializeJSON();
+                            var json2map = JSON.stringify(data);
+                            var obj = JSON.parse(json2map);
+                            obj['env_name'] = $('#env_name').val();
+                            post('/api/run_batch_test/', obj)
+                        },
+                        onCancel: function () {
+                        }
+                    }
+                );
+            }
+        }
+
     </script>
+ <script src="../static/assets/js/commonfun.js"></script>
 {% endblock %}
