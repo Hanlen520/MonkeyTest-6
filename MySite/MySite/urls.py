@@ -40,7 +40,9 @@ urlpatterns = [
     url(r'^jsontest/$', jsontest, name='jsontest'),
     url(r'^aceTest/$', aceTest, name='aceTest'),
     url(r'^add_save_case/$', add_save_case, name='add_save_case'),
+    url(r'^edit_save_case/$', edit_save_case, name='edit_save_case'),
     url(r'^env_list/$', env_list, name='env_list'),
     url(r'^env_set/$', env_set, name='env_set'),
     url(r'^run_test/$', run_test, name='run_test'),
+    url(r'^editcase/(?P<id>(\w+))/$', editcase, name='editcase'),
 ]

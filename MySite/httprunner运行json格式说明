@@ -1,0 +1,207 @@
+[
+    {
+        "config": {
+            "variables": [],
+            "request": {
+                "headers": {
+                    "User-Agent": "LXB/1.0.0 (iPhone; iOS 10.3.3; Scale/3.00)"
+                },
+                "base_url": ""
+            },
+            "name": "testset description"
+        }
+    },
+    {
+        "test": {
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.status",
+                        "10000"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.message",
+                        "success"
+                    ]
+                }
+            ],
+            "request": {
+                "url": "https://xfapi.51luorui.com/v1/init/review",
+                "headers": {
+                    "pay_way": "3",
+                    "platform": "ios",
+                    "CacheControl": "no-cache",
+                    "app_version": "1.0.0",
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3hmYXBpLjUxbHVvcnVpLmNvbS92MS9hdXRob3JpemF0aW9ucyIsImlhdCI6MTUzMTkwOTAyNywiZXhwIjo3NTMxOTA4OTY3LCJuYmYiOjE1MzE5MDkwMjcsImp0aSI6IlJzNVdHVk1wUG5aNGdRd1IiLCJzdWIiOjg1MDAwMDAwOH0.wDiBJv8Jeg9vZ5qDBn8i5Q_WZIcqfDl4g8r75jhCjJ0",
+                    "bundleId": "com.LianJiCompany.XF"
+                },
+                "params": {
+                    "timestamp": "1532312327",
+                    "version": "1.0.0",
+                    "sign": "33D346F64ABF1597FFADFE6D497B3750"
+                },
+                "method": "GET"
+            },
+            "name": "/v1/init/review"
+        }
+    },
+    {
+        "test": {
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.status",
+                        "10000"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.message",
+                        "success"
+                    ]
+                }
+            ],
+            "request": {
+                "url": "https://xfapi.51luorui.com/v1/init/gui",
+                "headers": {
+                    "pay_way": "3",
+                    "platform": "ios",
+                    "CacheControl": "no-cache",
+                    "app_version": "1.0.0",
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3hmYXBpLjUxbHVvcnVpLmNvbS92MS9hdXRob3JpemF0aW9ucyIsImlhdCI6MTUzMTkwOTAyNywiZXhwIjo3NTMxOTA4OTY3LCJuYmYiOjE1MzE5MDkwMjcsImp0aSI6IlJzNVdHVk1wUG5aNGdRd1IiLCJzdWIiOjg1MDAwMDAwOH0.wDiBJv8Jeg9vZ5qDBn8i5Q_WZIcqfDl4g8r75jhCjJ0",
+                    "bundleId": "com.LianJiCompany.XF"
+                },
+                "params": {
+                    "timestamp": "1532312327",
+                    "version": "v2",
+                    "module": "public",
+                    "sign": "573101F342D4F813D3A415FC17BFA4C0"
+                },
+                "method": "GET"
+            },
+            "name": "/v1/init/gui"
+        }
+    },
+    {
+        "test": {
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.status",
+                        "10000"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.message",
+                        "success"
+                    ]
+                }
+            ],
+            "request": {
+                "url": "https://xfapi.51luorui.com/v1/init/version",
+                "headers": {
+                    "pay_way": "3",
+                    "platform": "ios",
+                    "CacheControl": "no-cache",
+                    "app_version": "1.0.0",
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3hmYXBpLjUxbHVvcnVpLmNvbS92MS9hdXRob3JpemF0aW9ucyIsImlhdCI6MTUzMTkwOTAyNywiZXhwIjo3NTMxOTA4OTY3LCJuYmYiOjE1MzE5MDkwMjcsImp0aSI6IlJzNVdHVk1wUG5aNGdRd1IiLCJzdWIiOjg1MDAwMDAwOH0.wDiBJv8Jeg9vZ5qDBn8i5Q_WZIcqfDl4g8r75jhCjJ0",
+                    "bundleId": "com.LianJiCompany.XF"
+                },
+                "params": {
+                    "timestamp": "1532312327",
+                    "toogle_version": "1.0",
+                    "version": "1.0.0",
+                    "sign": "30535DF4180D1F8EF4432B4B30F7734F"
+                },
+                "method": "GET"
+            },
+            "name": "/v1/init/version"
+        }
+    },
+    {
+        "test": {
+            "validate": [
+                {
+                    "eq": [
+                        "status_code",
+                        200
+                    ]
+                },
+                {
+                    "eq": [
+                        "headers.Content-Type",
+                        "application/json; charset=utf-8"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.pub_key",
+                        "d11063cc-dd17-4c34-a753-5f68d22b3f0d"
+                    ]
+                },
+                {
+                    "eq": [
+                        "content.security_key",
+                        "4f2ce204-3071-48a2-beac-f9356da2fe2c"
+                    ]
+                }
+            ],
+            "request": {
+                "url": "https://xfapi.51luorui.com/v1/init/faceInfo",
+                "headers": {
+                    "pay_way": "3",
+                    "platform": "ios",
+                    "CacheControl": "no-cache",
+                    "app_version": "1.0.0",
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3hmYXBpLjUxbHVvcnVpLmNvbS92MS9hdXRob3JpemF0aW9ucyIsImlhdCI6MTUzMTkwOTAyNywiZXhwIjo3NTMxOTA4OTY3LCJuYmYiOjE1MzE5MDkwMjcsImp0aSI6IlJzNVdHVk1wUG5aNGdRd1IiLCJzdWIiOjg1MDAwMDAwOH0.wDiBJv8Jeg9vZ5qDBn8i5Q_WZIcqfDl4g8r75jhCjJ0",
+                    "bundleId": "com.LianJiCompany.XF"
+                },
+                "params": {
+                    "timestamp": "1532312327",
+                    "sign": "F5402E87A417C25CFDE5E49230657DE6"
+                },
+                "method": "GET"
+            },
+            "name": "/v1/init/faceInfo"
+        }
+    }
+]

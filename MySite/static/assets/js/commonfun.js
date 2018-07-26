@@ -77,7 +77,6 @@ function case_ajax(type,editer) {
         "test": {
             "name": caseInfo,
             "parameters": parameters,
-            // "variables": variables,
             "request": {
                 "url": url.url,
                 "method": method.method,
@@ -85,15 +84,13 @@ function case_ajax(type,editer) {
                 "type": dataType.DataType,
                 "request_data": request_data
             },
-            // "extract": extract,
             // "validate": validate,
-            // "hooks": hooks,
         }
     };
 
     console.log(test);
     if (type === 'edit') {
-        url = '/api/edit_case/';
+        url = '/edit_save_case/';
     } else {
         url = '/add_save_case/';
     }

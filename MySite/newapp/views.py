@@ -73,7 +73,14 @@ def env_list(request):
     return render(request, 'env_list.html',{'envlist':envlist})
     # return render(request, 'env_list.html')
 
+@csrf_exempt
 def testlist(request):
+    if request.is_ajax():
+        type_dict = json.loads(request.body.decode('utf-8'))
+        if type_dict['mode'] =='del':
+            models.TestInfo.objects.filter(id=type_dict['id']).delete()
+            return HttpResponse("OK")
+
     testcaselists = models.TestInfo.objects.all().values(
         'id', 'test_name', 'belong_project', 'request', 'author', 'remark','create_time')
     paginator = Paginator(testcaselists, 10)  # Show 10 contacts per page
@@ -160,11 +167,11 @@ def add_project(request):
         other_desc=other_desc,
         create_time=create_time
     )
-    return HttpResponse('OK')
+    return HttpResponse("OK")
 
 @csrf_exempt
 def project_list(request):
-    if ''!= request.body:
+    if request.is_ajax():
         type_dict = json.loads(request.body.decode('utf-8'))
         if type_dict['mode'] =='del':
             models.ProjectInfo.objects.filter(id=type_dict['id']).delete()
@@ -238,19 +245,23 @@ def runcase(request):
 def add_save_case(request):
     try:
         add_info = json.loads(request.body.decode('utf-8'))
+        msg = case_info_logic(**add_info)
     except ValueError:
         return HttpResponse('项目信息新增异常')
+
+    print 'add_info2:', add_info
     test_info = add_info['test']
+    case_info = add_info.get('test').pop('case_info')
 
     if ''!= test_info:
         test_info_json = json.dumps(test_info)
         print 'json:',test_info_json
 
-        test_name = test_info['name']['case_name']
-        belong_project = test_info['name']['project']
-        request = test_info['request']
-        author = test_info['name']['author']
-        remark = test_info['name']['remark']
+        test_name = add_info.get('test').get('name')
+        belong_project = case_info.get('project')
+        request = add_info
+        author = case_info.get('author')
+        remark = case_info.get('remark')
 
         create_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
 
@@ -269,12 +280,52 @@ def add_save_case(request):
     return HttpResponse('OK')
 
 @csrf_exempt
+def edit_save_case(request):
+    try:
+        edit_info = json.loads(request.body.decode('utf-8'))
+        msg = case_info_logic(**edit_info)
+    except ValueError:
+        return HttpResponse('项目信息新增异常')
+
+    print 'edit_info:', edit_info
+    test_info = edit_info['test']
+    case_info = edit_info.get('test').pop('case_info')
+    id = case_info.get('test_index')
+
+    if ''!= test_info:
+        test_info_json = json.dumps(test_info)
+        print 'json:',test_info_json
+
+        test_name = edit_info.get('test').get('name')
+        belong_project = case_info.get('project')
+        request = edit_info
+        author = case_info.get('author')
+        remark = case_info.get('remark')
+
+        update_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time()))
+        models.TestInfo.objects.filter(id=id).update(
+            test_name=test_name,
+            belong_project=belong_project,
+            request=request,
+            author=author,
+            remark=remark,
+            response="",
+            update_time=update_time
+        )
+
+        return HttpResponse('OK')
+    else:
+        return HttpResponse('NG')
+
+
+@csrf_exempt
 def env_set(request):
     if ''!= request.body:
         type_dict = json.loads(request.body.decode('utf-8'))
-        if type_dict['mode'] =='del':
-            models.EnvInfo.objects.filter(id=type_dict['id']).delete()
-            return HttpResponse("OK")
+        if type_dict.has_key('mode'):
+            if type_dict['mode'] =='del':
+                models.EnvInfo.objects.filter(id=type_dict['id']).delete()
+                return HttpResponse("OK")
     try:
         env_info = json.loads(request.body.decode('utf-8'))
     except ValueError:
@@ -295,6 +346,17 @@ def env_set(request):
         create_time=create_time
     )
     return HttpResponse('OK')
+
+def editcase(request,id=None):
+    if id:
+        test_info = models.TestInfo.objects.get(id=id)
+        request = eval(test_info.request)
+        manage_info = {
+            'info': test_info,
+            'request': request.get('test'),
+            'project': models.ProjectInfo.objects.all().values('project_name').order_by('-create_time')
+        }
+    return render_to_response('editcase.html', manage_info)
 
 @csrf_exempt
 def run_test(request):
@@ -329,11 +391,8 @@ def run_test(request):
     except ObjectDoesNotExist:
         return testcase_list
 
-    # include = eval(obj.include)
     request = eval(obj.request)
     name = obj.test_name
-
-    project = obj.belong_project
     testcase_list.append(request)
 
     if not os.path.exists(testcase_dir_path):

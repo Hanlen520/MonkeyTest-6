@@ -7,17 +7,12 @@ function info_ajax(id,url){
         // contentType: "application/json",
         contentType: "application/x-www-form-urlencoded",
         success: function (data) {
-            // if (data !== 'ok') {
-            //     if (data.indexOf('/api/') !== -1) {
-            //         window.location.href = data;
-            //     } else {
-            //         myAlert(data);
-            //     }
-            // }
-            // else {
-            //     window.location.reload();
-            // }
-            alert(data);
+            if (data == 'OK') {
+                window.location.href = "/project_list/";
+            }
+            else{
+               alert(data);
+            }
         }
         ,
         error: function () {
