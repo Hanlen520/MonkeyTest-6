@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c4f9073-cb6b-4b92-be38-3c6a43bc6594" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/MonkeyTest.iml" afterPath="$PROJECT_DIR$/.idea/MonkeyTest.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/HttpRunnerManager" afterPath="$PROJECT_DIR$/HttpRunnerManager" />
-      <change beforePath="$PROJECT_DIR$/MySite/db.sqlite3" afterPath="$PROJECT_DIR$/MySite/db.sqlite3" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -513,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532596645045</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="web自动化工程">
+      <created>1532914588027</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1532914588028</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -607,7 +612,8 @@
     <MESSAGE value="自动化工程" />
     <MESSAGE value="自动化工程1" />
     <MESSAGE value="自动化工程 20180726" />
-    <option name="LAST_COMMIT_MESSAGE" value="自动化工程 20180726" />
+    <MESSAGE value="web自动化工程" />
+    <option name="LAST_COMMIT_MESSAGE" value="web自动化工程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
