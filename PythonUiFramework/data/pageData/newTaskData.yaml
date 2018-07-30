@@ -1,0 +1,6 @@
+newtask:
+  newtask_01:
+    task: "新建任务"
+    taskHo: ".//*[@id='createItem']/div[1]/div/label"
+  assert:
+    username: "输入一个任务名称"
