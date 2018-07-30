@@ -1,0 +1,6 @@
+login:
+    url: "localhost:8080"
+    name: '//input[@id="j_username"]'
+    password: '//input[@type="password"]'
+    loginButton: "button#yui-gen1-button"
+    loginSuccAssert: ".//*[@id='header']/div[2]/span/a[1]/b"

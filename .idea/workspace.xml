@@ -2,8 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c4f9073-cb6b-4b92-be38-3c6a43bc6594" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/PythonUiFramework/testcase/.cache/v/cache/lastfailed" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PythonUiFramework/testcase/geckodriver.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/common/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/common/base.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/common/util.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/data/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/data/inputData/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/data/inputData/loginData.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/data/pageData/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/data/pageData/newTaskData.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/data/pageData/pageData.yaml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/public/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/public/login.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/report/HTMLTestRunner.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/report/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/report/testResult.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/testcase/.cache/v/cache/lastfailed" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/testcase/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/testcase/jdUserinfo/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/testcase/testcase01.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/testcase/testcase02.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/web自动化测试用例.xlsx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/study/firefoxTest.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/study/geckodriver.log" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/HttpRunnerManager" afterPath="$PROJECT_DIR$/HttpRunnerManager" />
+      <change beforePath="$PROJECT_DIR$/PythonUiFramework/testcase/testcase01.py" afterPath="$PROJECT_DIR$/PythonUiFramework/testcase/testcase01.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,19 +50,22 @@
     <SUITE FILE_PATH="coverage/MonkeyTest$test.coverage" NAME="test Coverage Results" MODIFIED="1530754939712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$findfile.coverage" NAME="findfile Coverage Results" MODIFIED="1531473766514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$zipTest.coverage" NAME="zipTest Coverage Results" MODIFIED="1532403752756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
-    <SUITE FILE_PATH="coverage/MonkeyTest$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1532593757133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MySite" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1532914931229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MySite" />
     <SUITE FILE_PATH="coverage/MonkeyTest$readfile.coverage" NAME="readfile Coverage Results" MODIFIED="1528946074907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpAutoTest/testcase" />
     <SUITE FILE_PATH="coverage/MonkeyTest$emails.coverage" NAME="emails Coverage Results" MODIFIED="1528964743173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20180621.coverage" NAME="20180621 Coverage Results" MODIFIED="1530496597064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$convertReport.coverage" NAME="convertReport Coverage Results" MODIFIED="1531799034715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
-    <SUITE FILE_PATH="coverage/MonkeyTest$manage.coverage" NAME="manage Coverage Results" MODIFIED="1532594951383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpRunnerManager" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$manage.coverage" NAME="manage Coverage Results" MODIFIED="1532914945004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpRunnerManager" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$py_test_for_testcase01_Testlogin.coverage" NAME="py.test for testcase01.Testlogin Coverage Results" MODIFIED="1532915300230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonUiFramework/testcase" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20180702.coverage" NAME="20180702疏影 Coverage Results" MODIFIED="1530585858394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20180601.coverage" NAME="20180601 Coverage Results" MODIFIED="1527838087196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$app_login.coverage" NAME="app_login Coverage Results" MODIFIED="1528942456872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpAutoTest/testcase" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20180702__1_.coverage" NAME="20180702 (1) Coverage Results" MODIFIED="1530528770876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$py_test_in_testcase01_py.coverage" NAME="py.test in testcase01.py Coverage Results" MODIFIED="1532914990152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonUiFramework/testcase" />
     <SUITE FILE_PATH="coverage/MonkeyTest$timeconvert.coverage" NAME="timeconvert Coverage Results" MODIFIED="1527823208899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpAutoTest/common" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20180613.coverage" NAME="20180613 Coverage Results" MODIFIED="1528943354809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$manage__2_.coverage" NAME="zqxt_admin_manage Coverage Results" MODIFIED="1532490160952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zqxt_admin" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$firefoxTest.coverage" NAME="firefoxTest Coverage Results" MODIFIED="1532915281429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20160625.coverage" NAME="20160625 Coverage Results" MODIFIED="1529934324540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$locustTest.coverage" NAME="locustTest Coverage Results" MODIFIED="1528947321190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$tool.coverage" NAME="tool Coverage Results" MODIFIED="1528945619700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpAutoTest/common" />
@@ -46,10 +74,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="testcase01.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonUiFramework/testcase/testcase01.py">
+        <entry file="file://$PROJECT_DIR$/SeleniumPrj/testcase/testcase01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -106,9 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MySite/newapp/templates/bindex.html" />
-        <option value="$PROJECT_DIR$/MySite/static/assets/js/commons.js" />
-        <option value="$PROJECT_DIR$/MySite/newapp/templates/addproject.html" />
         <option value="$PROJECT_DIR$/MySite/newapp/models.py" />
         <option value="$PROJECT_DIR$/MySite/newapp/templates/env_list.html" />
         <option value="$PROJECT_DIR$/HttpRunnerManager/templates/test_list.html" />
@@ -157,6 +182,9 @@
         <option value="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/operation.py" />
         <option value="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/emails.py" />
         <option value="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/common.py" />
+        <option value="$PROJECT_DIR$/study/firefoxTest.py" />
+        <option value="$PROJECT_DIR$/PythonUiFramework/testcase/testcase01.py" />
+        <option value="$PROJECT_DIR$/SeleniumPrj/testcase/testcase01.py" />
       </list>
     </option>
   </component>
@@ -167,10 +195,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
-    <option name="y" value="248" />
+    <option name="x" value="166" />
+    <option name="y" value="123" />
     <option name="width" value="1734" />
-    <option name="height" value="817" />
+    <option name="height" value="879" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,12 +227,12 @@
             <path>
               <item name="MonkeyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MonkeyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonUiFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="SeleniumPrj" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MonkeyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MonkeyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonUiFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="SeleniumPrj" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -236,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Python tests.py.test for testcase01.Testlogin">
     <configuration name="20180706疏影" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,26 +284,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="convertReport" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MonkeyTest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/convertReport.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="jsonTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="firefoxTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -288,7 +297,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MonkeyTest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/jsonTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/firefoxTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -392,12 +401,12 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
-    <configuration name="py.test in views.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for testcase01.Testlogin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MySite/newapp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonUiFramework/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -405,25 +414,41 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/MySite/newapp/views.py&quot;" />
+      <option name="_new_target" value="&quot;testcase01.Testlogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test in testcase01.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonUiFramework/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MonkeyTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/PythonUiFramework/testcase/testcase01.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.manage" />
       <item index="1" class="java.lang.String" itemvalue="Python.manage (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.jsonTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.convertReport" />
-      <item index="4" class="java.lang.String" itemvalue="Python.zipTest" />
-      <item index="5" class="java.lang.String" itemvalue="Python.zqxt_admin_manage" />
-      <item index="6" class="java.lang.String" itemvalue="Python tests.py.test in views.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.zipTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.zqxt_admin_manage" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in testcase01.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python.firefoxTest" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.py.test for testcase01.Testlogin" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.zqxt_admin_manage" />
-        <item index="1" class="java.lang.String" itemvalue="Python.zipTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.jsonTest" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in views.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.convertReport" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for testcase01.Testlogin" />
+        <item index="1" class="java.lang.String" itemvalue="Python.firefoxTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in testcase01.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.zqxt_admin_manage" />
+        <item index="4" class="java.lang.String" itemvalue="Python.zipTest" />
       </list>
     </recent_temporary>
   </component>
@@ -518,10 +543,23 @@
       <option name="project" value="LOCAL" />
       <updated>1532914588028</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="web自动化工程">
+      <created>1532914602815</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1532914602815</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="py_test_for_testcase01_Testlogin - 2018.07.30 at 09h 48m 53s.xml">
+      <configuration name="py.test for testcase01.Testlogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_testcase01_py - 2018.07.30 at 09h 43m 11s.xml">
+      <configuration name="py.test in testcase01.py" configurationId="tests" />
+    </history-entry>
     <history-entry file="py_test_in_views_py - 2018.07.20 at 10h 49m 23s.xml">
       <configuration name="py.test in views.py" configurationId="tests" />
     </history-entry>
@@ -539,28 +577,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="248" width="1734" height="817" extended-state="0" />
+    <frame x="166" y="123" width="1734" height="879" extended-state="0" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25110132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25033647" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5023601" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19291338" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44493392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19246298" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20457605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17383513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14994027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24551971" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21146953" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31277534" sideWeight="0.49763992" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31090176" sideWeight="0.49763992" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -681,62 +719,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/httprunner源码/HttpRunner/tests/suite/create_and_get.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/httprunner源码/HttpRunner/tests/api/basic.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1584">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/httprunner源码/HttpRunner/tests/data/account.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/httprunner源码/HttpRunner/tests/data/demo_testset_variables.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/httprunner源码/HttpRunner/tests/httpbin/hooks.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-469">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/httprunner源码/HttpRunner/docs/run-testcases.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySite/newapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySite/static/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/ProgramData/Anaconda2/Lib/site-packages/django/utils/autoreload.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
@@ -825,6 +807,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,15 +1013,83 @@
         <state relative-caret-position="374">
           <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
+            <element signature="e#24#39#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonUiFramework/public/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonUiFramework/data/pageData/newTaskData.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonUiFramework/data/pageData/pageData.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonUiFramework/data/inputData/loginData.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonUiFramework/common/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonUiFramework/report/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonUiFramework/testcase/testcase01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="453">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#14#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/firefoxTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#118#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/testcase/testcase01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>

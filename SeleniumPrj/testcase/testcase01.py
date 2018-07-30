@@ -47,11 +47,9 @@ class Testlogin(unittest.TestCase):
         
         
 if __name__=="__main__":
-        #suite = unittest.TestLoader().loadTestsFromTestCase(Testlogin)
-        #unittest.TextTestRunner(verbosity=2).run(suite)
         suiteTest = unittest.TestSuite()
         suiteTest.addTest(Testlogin("testBaidu01_01"))
-        suiteTest.addTest(Testlogin("testBaidu01_02"))
+        # suiteTest.addTest(Testlogin("testBaidu01_02"))
         filePath = "../report/Result.html"
         fp = file(filePath,'wb')
         #生成报告的Title,描述
