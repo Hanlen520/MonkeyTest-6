@@ -1,6 +1,9 @@
-login:
-    url: "localhost:8080"
-    name: '//input[@id="j_username"]'
-    password: '//input[@type="password"]'
-    loginButton: "button#yui-gen1-button"
-    loginSuccAssert: ".//*[@id='header']/div[2]/span/a[1]/b"
+testAllOrder:
+  url: "http://crm.ddhs.51lianqian.net:7035"
+  testAllOrder_01:
+    find_order: "DEVELOP-1-1806111337575745"
+  testAllOrder_02:
+    name: "lichcccc"
+    user_id: "799781"
+  testAllOrder_03:
+    name: "lichcccc"

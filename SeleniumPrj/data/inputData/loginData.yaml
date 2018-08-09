@@ -1,9 +1,9 @@
 login:
   login_data_01:
-    username: "tester"
-    pwd: "123qwe"
+    username: "lichengyan"
+    pwd: "abc123"
   login_data_02:
-    username: "test"
-    pwd: "111111"
+    username: "lichengyan"
+    pwd: "ABC123"
   login:
     ddjdhdj : "ssb"

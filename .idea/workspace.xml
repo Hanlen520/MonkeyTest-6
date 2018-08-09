@@ -2,33 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c4f9073-cb6b-4b92-be38-3c6a43bc6594" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/PythonUiFramework/testcase/.cache/v/cache/lastfailed" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/PythonUiFramework/testcase/geckodriver.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/common/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/common/base.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/common/util.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/data/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/data/inputData/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/data/inputData/loginData.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/data/pageData/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/data/pageData/newTaskData.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/data/pageData/pageData.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/public/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/public/login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/report/HTMLTestRunner.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/report/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/report/testResult.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/testcase/.cache/v/cache/lastfailed" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/testcase/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/testcase/jdUserinfo/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/testcase/testcase01.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/testcase/testcase02.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/web自动化测试用例.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/study/firefoxTest.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/study/geckodriver.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/CashLoanProject/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HttpAutoTest/testcase/balcklist.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/HttpAutoTest/testcase/pre.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/page/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/page/afterSaleOfAllOrderPage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/page/loginPage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/page/navbarPage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/SeleniumPrj/testcase/runAll.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/study/201807/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/study/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/study/test/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/study/test/osTest.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/study/test/unittestTest.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/HttpAutoTest/testcase/log/log20180614110251.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/HttpAutoTest/testcase/log/log20180614110329.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/HttpAutoTest/testcase/log/log20180614110807.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/HttpAutoTest/testcase/log/log20180614111301.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/HttpAutoTest/testcase/log/log20180614111359.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/HttpAutoTest/testcase/log/log20180614111435.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/HttpRunnerManager" afterPath="$PROJECT_DIR$/HttpRunnerManager" />
-      <change beforePath="$PROJECT_DIR$/PythonUiFramework/testcase/testcase01.py" afterPath="$PROJECT_DIR$/PythonUiFramework/testcase/testcase01.py" />
+      <change beforePath="$PROJECT_DIR$/MySite/suit/find.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPrj/common/base.py" afterPath="$PROJECT_DIR$/SeleniumPrj/common/base.py" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPrj/common/util.py" afterPath="$PROJECT_DIR$/SeleniumPrj/common/util.py" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPrj/data/inputData/loginData.yaml" afterPath="$PROJECT_DIR$/SeleniumPrj/data/inputData/loginData.yaml" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPrj/data/pageData/pageData.yaml" afterPath="$PROJECT_DIR$/SeleniumPrj/data/pageData/pageData.yaml" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPrj/public/login.py" afterPath="$PROJECT_DIR$/SeleniumPrj/public/login.py" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPrj/report/testResult.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPrj/testcase/.cache/v/cache/lastfailed" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPrj/testcase/testcase01.py" afterPath="$PROJECT_DIR$/SeleniumPrj/testcase/testcase01.py" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPrj/testcase/testcase02.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPrj/web自动化测试用例.xlsx" afterPath="$PROJECT_DIR$/SeleniumPrj/web自动化测试用例.xlsx" />
+      <change beforePath="$PROJECT_DIR$/study/20160625.py" afterPath="$PROJECT_DIR$/study/201807/20160625.py" />
+      <change beforePath="$PROJECT_DIR$/study/20180528.py" afterPath="$PROJECT_DIR$/study/201807/20180528.py" />
+      <change beforePath="$PROJECT_DIR$/study/20180601.py" afterPath="$PROJECT_DIR$/study/201807/20180601.py" />
+      <change beforePath="$PROJECT_DIR$/study/20180613.py" afterPath="$PROJECT_DIR$/study/201807/20180613.py" />
+      <change beforePath="$PROJECT_DIR$/study/20180614.py" afterPath="$PROJECT_DIR$/study/201807/20180614.py" />
+      <change beforePath="$PROJECT_DIR$/study/20180621.py" afterPath="$PROJECT_DIR$/study/201807/20180621.py" />
+      <change beforePath="$PROJECT_DIR$/study/20180702疏影.py" afterPath="$PROJECT_DIR$/study/201807/20180702疏影.py" />
+      <change beforePath="$PROJECT_DIR$/study/20180703疏影.py" afterPath="$PROJECT_DIR$/study/201807/20180703疏影.py" />
+      <change beforePath="$PROJECT_DIR$/study/20180706疏影.py" afterPath="$PROJECT_DIR$/study/201807/20180706疏影.py" />
+      <change beforePath="$PROJECT_DIR$/study/appiumTest.py" afterPath="$PROJECT_DIR$/study/test/appiumTest.py" />
+      <change beforePath="$PROJECT_DIR$/study/firefoxTest.py" afterPath="$PROJECT_DIR$/study/test/firefoxTest.py" />
+      <change beforePath="$PROJECT_DIR$/study/jsonTest.py" afterPath="$PROJECT_DIR$/study/test/jsonTest.py" />
+      <change beforePath="$PROJECT_DIR$/study/locustTest.py" afterPath="$PROJECT_DIR$/study/test/locustTest.py" />
+      <change beforePath="$PROJECT_DIR$/study/socketTest.py" afterPath="$PROJECT_DIR$/study/test/socketTest.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,6 +60,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MonkeyTest$20180703.coverage" NAME="20180703疏影 Coverage Results" MODIFIED="1530757545348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20180706.coverage" NAME="20180706疏影 Coverage Results" MODIFIED="1531463074812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$balcklist.coverage" NAME="balcklist Coverage Results" MODIFIED="1533105298775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpAutoTest/testcase" />
     <SUITE FILE_PATH="coverage/MonkeyTest$logConvertStr.coverage" NAME="logConvertStr Coverage Results" MODIFIED="1526626819945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MonkeyTest$temp.coverage" NAME="temp Coverage Results" MODIFIED="1527130777774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpAutoTest/common" />
     <SUITE FILE_PATH="coverage/MonkeyTest$app_init.coverage" NAME="app_init Coverage Results" MODIFIED="1528942641665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpAutoTest/testcase" />
@@ -50,40 +71,39 @@
     <SUITE FILE_PATH="coverage/MonkeyTest$test.coverage" NAME="test Coverage Results" MODIFIED="1530754939712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$findfile.coverage" NAME="findfile Coverage Results" MODIFIED="1531473766514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$zipTest.coverage" NAME="zipTest Coverage Results" MODIFIED="1532403752756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$py_test_for_testcase01_TestAfterSaleOfAllOrder.coverage" NAME="py.test for testcase01.TestAfterSaleOfAllOrder Coverage Results" MODIFIED="1533204086534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumPrj/testcase" />
     <SUITE FILE_PATH="coverage/MonkeyTest$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1532914931229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MySite" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$login.coverage" NAME="login Coverage Results" MODIFIED="1532935070035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumPrj/public" />
     <SUITE FILE_PATH="coverage/MonkeyTest$readfile.coverage" NAME="readfile Coverage Results" MODIFIED="1528946074907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpAutoTest/testcase" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$osTest.coverage" NAME="osTest Coverage Results" MODIFIED="1533003879976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$emails.coverage" NAME="emails Coverage Results" MODIFIED="1528964743173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20180621.coverage" NAME="20180621 Coverage Results" MODIFIED="1530496597064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$convertReport.coverage" NAME="convertReport Coverage Results" MODIFIED="1531799034715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
-    <SUITE FILE_PATH="coverage/MonkeyTest$manage.coverage" NAME="manage Coverage Results" MODIFIED="1532914945004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpRunnerManager" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$loginPage.coverage" NAME="loginPage Coverage Results" MODIFIED="1532932946559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumPrj/page" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$osTest__1_.coverage" NAME="osTest (1) Coverage Results" MODIFIED="1533179703526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study/test" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$manage.coverage" NAME="manage Coverage Results" MODIFIED="1533793159314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpRunnerManager" />
     <SUITE FILE_PATH="coverage/MonkeyTest$py_test_for_testcase01_Testlogin.coverage" NAME="py.test for testcase01.Testlogin Coverage Results" MODIFIED="1532915300230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonUiFramework/testcase" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$testcase01.coverage" NAME="testcase01 Coverage Results" MODIFIED="1533027642713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumPrj/testcase" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$pre.coverage" NAME="pre Coverage Results" MODIFIED="1533626609485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpAutoTest/testcase" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20180702.coverage" NAME="20180702疏影 Coverage Results" MODIFIED="1530585858394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20180601.coverage" NAME="20180601 Coverage Results" MODIFIED="1527838087196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$app_login.coverage" NAME="app_login Coverage Results" MODIFIED="1528942456872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpAutoTest/testcase" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20180702__1_.coverage" NAME="20180702 (1) Coverage Results" MODIFIED="1530528770876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
-    <SUITE FILE_PATH="coverage/MonkeyTest$py_test_in_testcase01_py.coverage" NAME="py.test in testcase01.py Coverage Results" MODIFIED="1532914990152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonUiFramework/testcase" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$py_test_in_testcase01_py.coverage" NAME="py.test in testcase01.py Coverage Results" MODIFIED="1533200106946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonUiFramework/testcase" />
     <SUITE FILE_PATH="coverage/MonkeyTest$timeconvert.coverage" NAME="timeconvert Coverage Results" MODIFIED="1527823208899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpAutoTest/common" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20180613.coverage" NAME="20180613 Coverage Results" MODIFIED="1528943354809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$manage__2_.coverage" NAME="zqxt_admin_manage Coverage Results" MODIFIED="1532490160952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/zqxt_admin" />
     <SUITE FILE_PATH="coverage/MonkeyTest$firefoxTest.coverage" NAME="firefoxTest Coverage Results" MODIFIED="1532915281429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$20160625.coverage" NAME="20160625 Coverage Results" MODIFIED="1529934324540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/MonkeyTest$locustTest.coverage" NAME="locustTest Coverage Results" MODIFIED="1528947321190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$testcase01_py.coverage" NAME="testcase01.py Coverage Results" MODIFIED="1533200618435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$runAll.coverage" NAME="runAll Coverage Results" MODIFIED="1533196807754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumPrj/testcase" />
     <SUITE FILE_PATH="coverage/MonkeyTest$tool.coverage" NAME="tool Coverage Results" MODIFIED="1528945619700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HttpAutoTest/common" />
     <SUITE FILE_PATH="coverage/MonkeyTest$jsonTest.coverage" NAME="jsonTest Coverage Results" MODIFIED="1532331069397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/MonkeyTest$navbarPage.coverage" NAME="navbarPage Coverage Results" MODIFIED="1532941886654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SeleniumPrj/page" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testcase01.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SeleniumPrj/testcase/testcase01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,7 +116,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>key_value_dict</find>
       <find>env_set</find>
       <find>type_change</find>
       <find>testcaselist</find>
@@ -126,6 +145,7 @@
       <find>case_ajax</find>
       <find>form_message</find>
       <find>case_info_logic</find>
+      <find>JSONDecodeError</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -134,22 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MySite/newapp/models.py" />
-        <option value="$PROJECT_DIR$/MySite/newapp/templates/env_list.html" />
-        <option value="$PROJECT_DIR$/HttpRunnerManager/templates/test_list.html" />
-        <option value="$PROJECT_DIR$/study/jsonTest.py" />
-        <option value="$PROJECT_DIR$/MySite/newapp/commonFun.py" />
-        <option value="$PROJECT_DIR$/study/socketTest.py" />
-        <option value="$PROJECT_DIR$/study/zipTest.py" />
-        <option value="$PROJECT_DIR$/HttpRunnerManager/templates/project_list.html" />
-        <option value="$PROJECT_DIR$/MySite/httprunner运行json格式说明" />
-        <option value="$PROJECT_DIR$/MySite/httprunner中比较器的类型说明" />
-        <option value="$PROJECT_DIR$/MySite/newapp/simple_tag.py" />
-        <option value="$PROJECT_DIR$/MySite/newapp/templatetags/simple_tag.py" />
-        <option value="$PROJECT_DIR$/MySite/newapp/templates/testlist.html" />
-        <option value="$PROJECT_DIR$/MySite/newapp/templates/projectlist.html" />
-        <option value="$PROJECT_DIR$/MySite/static/assets/js/addlist.js" />
-        <option value="$PROJECT_DIR$/MySite/newapp/templates/addcase.html" />
         <option value="$PROJECT_DIR$/HttpRunnerManager/static/assets/js/commons.js" />
         <option value="$PROJECT_DIR$/MySite/MySite/urls.py" />
         <option value="$PROJECT_DIR$/MySite/static/assets/js/commonfun.js" />
@@ -181,10 +185,26 @@
         <option value="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/pagination.py" />
         <option value="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/operation.py" />
         <option value="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/emails.py" />
-        <option value="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/common.py" />
         <option value="$PROJECT_DIR$/study/firefoxTest.py" />
         <option value="$PROJECT_DIR$/PythonUiFramework/testcase/testcase01.py" />
+        <option value="$PROJECT_DIR$/SeleniumPrj/data/inputData/loginData.yaml" />
+        <option value="$PROJECT_DIR$/SeleniumPrj/common/util.py" />
+        <option value="$PROJECT_DIR$/SeleniumPrj/__init__.py" />
+        <option value="$PROJECT_DIR$/SeleniumPrj/common/base.py" />
+        <option value="$PROJECT_DIR$/SeleniumPrj/public/login.py" />
+        <option value="$PROJECT_DIR$/SeleniumPrj/page/loginPage.py" />
+        <option value="$PROJECT_DIR$/SeleniumPrj/page/shouhou_AllOrderPage.py" />
+        <option value="$PROJECT_DIR$/SeleniumPrj/page/navbarPage.py" />
+        <option value="$PROJECT_DIR$/study/osTest.py" />
+        <option value="$PROJECT_DIR$/study/test/unittestTest.py" />
+        <option value="$PROJECT_DIR$/HttpAutoTest/testcase/balcklist.py" />
+        <option value="$PROJECT_DIR$/study/test/osTest.py" />
+        <option value="$PROJECT_DIR$/SeleniumPrj/testcase/runAll.py" />
+        <option value="$PROJECT_DIR$/SeleniumPrj/page/afterSaleOfAllOrderPage.py" />
+        <option value="$PROJECT_DIR$/SeleniumPrj/data/pageData/pageData.yaml" />
         <option value="$PROJECT_DIR$/SeleniumPrj/testcase/testcase01.py" />
+        <option value="$PROJECT_DIR$/HttpAutoTest/testcase/pre.py" />
+        <option value="$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/common.py" />
       </list>
     </option>
   </component>
@@ -195,10 +215,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="166" />
+    <option name="x" value="190" />
     <option name="y" value="123" />
-    <option name="width" value="1734" />
-    <option name="height" value="879" />
+    <option name="width" value="1542" />
+    <option name="height" value="911" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -216,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,21 +243,11 @@
               <item name="MonkeyTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="MonkeyTest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MonkeyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MonkeyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="SeleniumPrj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MonkeyTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MonkeyTest" type="462c0819:PsiDirectoryNode" />
-              <item name="SeleniumPrj" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -249,6 +258,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\MonkeyTest\study\201807" />
+      <recent name="F:\PycharmProjects\MonkeyTest\study\test" />
       <recent name="F:\PycharmProjects\MonkeyTest\MySite\newapp\templatetags" />
     </key>
   </component>
@@ -264,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for testcase01.Testlogin">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="20180706疏影" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,25 +290,6 @@
       <module name="MonkeyTest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/20180706疏影.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="firefoxTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MonkeyTest" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/firefoxTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,40 +333,78 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="zipTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="osTest (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MonkeyTest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/zipTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/test/osTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="zqxt_admin_manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pre" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zqxt_admin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HttpAutoTest/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MonkeyTest" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zqxt_admin/manage.py" />
-      <option name="PARAMETERS" value="runserver 0.0.0.0:8003" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HttpAutoTest/testcase/pre.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="runAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPrj/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MonkeyTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumPrj/testcase/runAll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="testcase01.py" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda2\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MonkeyTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SeleniumPrj/testcase/testcase01.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -401,12 +431,12 @@
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
     </configuration>
-    <configuration name="py.test for testcase01.Testlogin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for testcase01.TestAfterSaleOfAllOrder" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonUiFramework/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPrj/testcase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -414,7 +444,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testcase01.Testlogin&quot;" />
+      <option name="_new_target" value="&quot;testcase01.TestAfterSaleOfAllOrder&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test in testcase01.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -430,25 +460,26 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/PythonUiFramework/testcase/testcase01.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/SeleniumPrj/testcase/testcase01.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Python.manage" />
-      <item index="1" class="java.lang.String" itemvalue="Python.manage (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.zipTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.zqxt_admin_manage" />
+    <list size="8">
+      <item index="0" class="java.lang.String" itemvalue="Python.testcase01.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.manage" />
+      <item index="2" class="java.lang.String" itemvalue="Python.manage (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.osTest (1)" />
       <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in testcase01.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python.firefoxTest" />
-      <item index="6" class="java.lang.String" itemvalue="Python tests.py.test for testcase01.Testlogin" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test for testcase01.TestAfterSaleOfAllOrder" />
+      <item index="6" class="java.lang.String" itemvalue="Python.runAll" />
+      <item index="7" class="java.lang.String" itemvalue="Python.pre" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for testcase01.Testlogin" />
-        <item index="1" class="java.lang.String" itemvalue="Python.firefoxTest" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pre" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for testcase01.TestAfterSaleOfAllOrder" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in testcase01.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.zqxt_admin_manage" />
-        <item index="4" class="java.lang.String" itemvalue="Python.zipTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.runAll" />
+        <item index="4" class="java.lang.String" itemvalue="Python.osTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -550,21 +581,46 @@
       <option name="project" value="LOCAL" />
       <updated>1532914602815</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="web自动化工程">
+      <created>1532916054123</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1532916054123</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_testcase01_Testlogin - 2018.07.30 at 09h 48m 53s.xml">
-      <configuration name="py.test for testcase01.Testlogin" configurationId="tests" />
+    <history-entry file="py_test_for_testcase01_TestAfterSaleOfAllOrder - 2018.08.02 at 16h 59m 26s.xml">
+      <configuration name="py.test for testcase01.TestAfterSaleOfAllOrder" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_testcase01_py - 2018.07.30 at 09h 43m 11s.xml">
-      <configuration name="py.test in testcase01.py" configurationId="tests" />
+    <history-entry file="py_test_for_testcase01_TestAfterSaleOfAllOrder - 2018.08.02 at 17h 01m 40s.xml">
+      <configuration name="py.test for testcase01.TestAfterSaleOfAllOrder" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_views_py - 2018.07.20 at 10h 49m 23s.xml">
-      <configuration name="py.test in views.py" configurationId="tests" />
+    <history-entry file="py_test_for_testcase01_TestAfterSaleOfAllOrder - 2018.08.02 at 17h 04m 05s.xml">
+      <configuration name="py.test for testcase01.TestAfterSaleOfAllOrder" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_views_py - 2018.07.20 at 10h 53m 26s.xml">
-      <configuration name="py.test in views.py" configurationId="tests" />
+    <history-entry file="py_test_for_testcase01_TestAfterSaleOfAllOrder - 2018.08.02 at 17h 09m 21s.xml">
+      <configuration name="py.test for testcase01.TestAfterSaleOfAllOrder" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_testcase01_TestAfterSaleOfAllOrder - 2018.08.02 at 17h 11m 11s.xml">
+      <configuration name="py.test for testcase01.TestAfterSaleOfAllOrder" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_testcase01_TestAfterSaleOfAllOrder - 2018.08.02 at 17h 32m 59s.xml">
+      <configuration name="py.test for testcase01.TestAfterSaleOfAllOrder" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_testcase01_TestAfterSaleOfAllOrder - 2018.08.02 at 17h 48m 25s.xml">
+      <configuration name="py.test for testcase01.TestAfterSaleOfAllOrder" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_testcase01_TestAfterSaleOfAllOrder - 2018.08.02 at 17h 56m 29s.xml">
+      <configuration name="py.test for testcase01.TestAfterSaleOfAllOrder" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_testcase01_TestAfterSaleOfAllOrder - 2018.08.02 at 17h 58m 44s.xml">
+      <configuration name="py.test for testcase01.TestAfterSaleOfAllOrder" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_testcase01_TestAfterSaleOfAllOrder - 2018.08.02 at 18h 01m 50s.xml">
+      <configuration name="py.test for testcase01.TestAfterSaleOfAllOrder" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
@@ -577,33 +633,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="166" y="123" width="1734" height="879" extended-state="0" />
+    <frame x="190" y="123" width="1542" height="911" extended-state="0" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25033647" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5023601" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19246298" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20457605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19202363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32774192" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28903225" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14994027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2165992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21146953" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21120109" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31090176" sideWeight="0.49763992" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22580644" sideWeight="0.49763992" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -719,310 +778,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/ProgramData/Anaconda2/Lib/site-packages/django/utils/autoreload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="174" column="52" lean-forward="true" selection-start-line="174" selection-start-column="52" selection-end-line="174" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySite/static/assets/js/addlist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySite/newapp/templates/addcase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="261" column="6" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySite/static/assets/js/commonfun.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="84" column="44" lean-forward="false" selection-start-line="84" selection-start-column="44" selection-end-line="84" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/static/assets/js/commons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="190" column="35" lean-forward="true" selection-start-line="190" selection-start-column="35" selection-end-line="190" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/templates/edit_case.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySite/MySite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="44" column="48" lean-forward="true" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySite/newapp/commonFun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="75" column="39" lean-forward="true" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySite/newapp/templates/editcase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2838">
-          <caret line="458" column="0" lean-forward="false" selection-start-line="458" selection-start-column="0" selection-end-line="458" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda2/Lib/site-packages/django/conf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda2/Lib/importlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda2/Lib/site-packages/django/core/management/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="363" column="0" lean-forward="false" selection-start-line="363" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MySite/newapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda2/Lib/site-packages/django/utils/module_loading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/migrations/0005_auto_20180608_1150.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/migrations/0004_auto_20180608_1145.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/migrations/0003_auto_20180608_1126.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/managers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/migrations/0006_auto_20180608_1159.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/templatetags/custom_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/migrations/0002_auto_20180502_1046.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/HttpRunnerManager/activator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/HttpRunnerManager/celery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/HttpRunnerManager/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/HttpRunnerManager/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/HttpRunnerManager/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/task_opt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/pagination.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/operation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/emails.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/testcase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonUiFramework/public/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11">
           <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,35 +817,318 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/test/firefoxTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppiumPython/AppiumPython/TestCase/Test_Login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1100">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/testcase/jdUserinfo/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Test/str.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/convertReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/public/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/page/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppiumPython/AppiumPython/Page/cityPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppiumPython/AppiumPython/Page/internetPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppiumPython/AppiumPython/Page/lifeServicePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppiumPython/AppiumPython/Page/mePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppiumPython/AppiumPython/Page/Base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/common/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/testcase/testcase02.py" />
+    <entry file="file://C:/ProgramData/Anaconda2/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="264" column="30" lean-forward="false" selection-start-line="264" selection-start-column="8" selection-end-line="264" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/report/testResult.html" />
+    <entry file="file://$PROJECT_DIR$/MySite/newapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="379" column="38" lean-forward="true" selection-start-line="379" selection-start-column="38" selection-end-line="379" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/report/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="625" column="15" lean-forward="false" selection-start-line="625" selection-start-column="15" selection-end-line="625" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/common/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonUiFramework/testcase/testcase01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="264">
+          <caret line="36" column="73" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/report/HTMLTestRunnerCN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="548" column="8" lean-forward="false" selection-start-line="548" selection-start-column="8" selection-end-line="548" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/report/Result.html" />
+    <entry file="file://$PROJECT_DIR$/php/Cron/CronController.php" />
+    <entry file="file://$PROJECT_DIR$/study/test/unittestTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpAutoTest/common/tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/test/osTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/page/navbarPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/page/loginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/testcase/runAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/public/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
-            <element signature="e#14#48#0" expanded="false" />
+            <element signature="e#14#54#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study/firefoxTest.py">
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/data/inputData/loginData.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/page/afterSaleOfAllOrderPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#177#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/data/pageData/newTaskData.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrj/data/pageData/pageData.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#118#148#0" expanded="true" />
-          </folding>
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumPrj/testcase/testcase01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="315">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="e#118#162#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpAutoTest/testcase/app_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="45" selection-end-column="55" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpAutoTest/testcase/balcklist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpAutoTest/testcase/app_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpAutoTest/testcase/pre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2002">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding>
+            <element signature="e#110#130#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpAutoTest/testcase/picture.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpAutoTest/testcase/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#46#61#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpRunnerManager/ApiManager/utils/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="523" column="34" lean-forward="true" selection-start-line="523" selection-start-column="34" selection-end-line="523" selection-end-column="34" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

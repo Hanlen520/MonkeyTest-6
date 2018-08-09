@@ -2,15 +2,14 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException
 
 class BaseCommon(object):  
   
-    def __init__(self, driver):  
-   
+    def __init__(self, driver):
         self.driver = driver  
   
-    def back(self):  
-       
+    def back(self):
         #浏览器后退按钮 
         self.driver.back()  
   
@@ -21,19 +20,15 @@ class BaseCommon(object):
     def openUrl(self, url):  
         self.driver.get(url)
         
-    def closeBrowser(self):  
-    
+    def closeBrowser(self):
         self.driver.close() 
   
-    def quitBrowser(self):  
-    
+    def quitBrowser(self):
         self.driver.quit()
         
-    def fresh(self):  
-    
+    def fresh(self):
         self.driver.refresh()
-        
-        
+
     def screenshot(self,path):  
         #path = "D:\baidu_img.jpg"
         self.driver.get_screenshot_as_file(path)
@@ -64,6 +59,28 @@ class BaseCommon(object):
                 EC.presence_of_element_located((By.PARTIAL_LINK_TEXT,attrCont))
                 )
         return elem
-    
-    
-    
+
+    def find_element(self, identifyBy, c):
+        elem = None
+        try:
+            if identifyBy == By.ID:
+                elem = self.driver.find_element_by_id(c)
+            elif identifyBy == By.XPATH:
+                elem = self.driver.find_element_by_xpath(c)
+            elif identifyBy == By.CLASS_NAME:
+                elem = self.driver.find_element_by_class_name(c)
+            elif identifyBy == By.LINK_TEXT:
+                elem = self.driver.find_element_by_link_text(c)
+            elif identifyBy == By.PARTIAL_LINK_TEXT:
+                elem = self.driver.find_element_by_partial_link_text(c)
+            elif identifyBy == By.NAME:
+                elem = self.driver.find_element_by_name(c)
+            elif identifyBy == By.TAG_NAME:
+                elem = self.driver.find_element_by_tag_name(c)
+            elif identifyBy == By.CSS_SELECTOR:
+                elem = self.driver.find_element_by_css_selector(c)
+        except NoSuchElementException as e:
+            print "no find this element:",c
+            elem = None
+        finally:
+            return elem
