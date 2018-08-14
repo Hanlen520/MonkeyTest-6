@@ -20,7 +20,7 @@ HEADER_IOS = {
 
 HEADER_ANDROID = {
     'Content-Type': 'application/json',
-    'platform': 'ios'
+    'platform': 'android'
 }
 
 now = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
