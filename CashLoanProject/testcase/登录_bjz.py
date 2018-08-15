@@ -6,7 +6,7 @@
 
 from CashLoanProject.common import config
 import requests
-import json
+import json,datetime
 from CashLoanProject.common.addSign import Sign
 
 def login_fun():
@@ -26,8 +26,9 @@ def login_fun():
     s = Sign()
     new_data = s.signfun(data)
     print new_data
-
+    print datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
     response = requests.post(url=url, headers=config.HEADER_ANDROID, data=new_data,verify=False)
+    print datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
     print response
     token = ''
     if 200 == response.status_code:

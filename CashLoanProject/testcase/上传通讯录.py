@@ -5,7 +5,7 @@
 # @File    : update_contact.py
 from CashLoanProject.common import config
 import requests
-import json
+import json,datetime
 from CashLoanProject.common.addSign import Sign
 
 def update_contact(headers):
@@ -84,8 +84,9 @@ def update_contact(headers):
     s = Sign()
     new_data = s.signfun(data)
     print new_data
-
+    print datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
     response = requests.post(url=url, headers=headers, data=new_data,verify=False)
+    print datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
     print response
     if 200 == response.status_code:
         str_content = response.content

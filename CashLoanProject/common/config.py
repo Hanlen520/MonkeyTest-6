@@ -11,5 +11,7 @@ HEADER_IOS = {
 }
 
 HEADER_ANDROID = {
-    'platform': 'android'
+    'platform': 'android',
+    'pay_way':'3'
+    # 'app_version':'1.0.1'
 }
