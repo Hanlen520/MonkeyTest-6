@@ -1,16 +1,18 @@
 #!/user/bin/env python
 # -*- coding:utf-8 -*-
-# @Time    : 2018/8/13 13:29
+# @Time    : 2018/8/30 13:52
 # @Author  : 疏影
-# @File    : bjz_login.py
+# @File    : beibei_test.py
 
 from CashLoanProject.common import config
 import requests
 import json,datetime
 from CashLoanProject.common.addSign import Sign
 
+host = "https://lxbapi.51luocheng.com"
+
 def login_fun():
-    url = config.HOST + '/v1/authorizations'
+    url = host + '/v1/authorizations'
     data = {
         "brushed":"1",
         "deviceModel":"oppor7sm",
@@ -41,12 +43,21 @@ def login_fun():
         else:
             print u'获取token失败'
     return token
-# 当前token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2JqemFwaS41MW1pbmd5YW8uY29tL3YxL2F1dGhvcml6YXRpb25zIiwiaWF0IjoxNTM0MTM4Nzk3LCJleHAiOjc1MzQxMzg3MzcsIm5iZiI6MTUzNDEzODc5NywianRpIjoiM3dsMWt6R214SFBoeHhQVSIsInN1YiI6OTAwMDAwMDA1fQ.G_HY_jLUatekqvMJKpZRjgkiAQwnl2ifr6V3gMg6PMU
 
+def init_fun(headers):
+    url = host + '/v1/loan/init'
+    s = Sign()
+    params = s.signfun({"openudid":"867876023322105"})
+    print params
+    print datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+    response = requests.get(url=url,headers=headers,params=params,verify=False)
+    print datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')
+    if 200 == response.status_code:
+        # print response.content.decode("unicode-escape")
+        print json.dumps(json.loads(response.content), ensure_ascii=False, indent=2)
 
 if __name__ == '__main__':
     token = login_fun()
-    # token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2JqemFwaS41MW1pbmd5YW8uY29tL3YxL2F1dGhvcml6YXRpb25zIiwiaWF0IjoxNTM0MTM4Nzk3LCJleHAiOjc1MzQxMzg3MzcsIm5iZiI6MTUzNDEzODc5NywianRpIjoiM3dsMWt6R214SFBoeHhQVSIsInN1YiI6OTAwMDAwMDA1fQ.G_HY_jLUatekqvMJKpZRjgkiAQwnl2ifr6V3gMg6PMU'
-    # headers = config.HEADER_ANDROID
-    # headers.update({'Authorization':'Bearer ' + token})
-
+    headers = config.HEADER_ANDROID
+    headers.update({'Authorization':'Bearer ' + token})
+    init_fun(headers)

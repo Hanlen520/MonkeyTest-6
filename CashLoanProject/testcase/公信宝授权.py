@@ -8,12 +8,13 @@ import requests
 import json,datetime
 from CashLoanProject.common.addSign import Sign
 
-host = 'https://bjzapi.51mingyao.com'
+# host = 'https://bjzapi.51mingyao.com'
+host = 'https://qmyaapi.51liandu.com'
 def gxb_get_token(headers):
     url = host + '/v1/gxb/token'
-    params={
+    params = {
         'auth_type':'sesame_multiple',
-        'user_id':'900000008'
+        'user_id':'830105286'
     }
     s = Sign()
     new_params = s.signfun(params)
@@ -26,12 +27,14 @@ def gxb_get_token(headers):
         dict_content = json.loads(response.content)
         if '10000'==dict_content['status']:
             gxb_token = dict_content['data']['token']
+        else:
+            gxb_token=""
         print response.content.decode("unicode-escape")
 
     return gxb_token
 
 if __name__ == '__main__':
-    token='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2JqemFwaS41MW1pbmd5YW8uY29tL3YxL2F1dGhvcml6YXRpb25zIiwiaWF0IjoxNTM0Mjk4ODMwLCJleHAiOjc1MzQyOTg3NzAsIm5iZiI6MTUzNDI5ODgzMCwianRpIjoicEtPclJyUlFtYU5WQXZZSCIsInN1YiI6OTAwMDAwMDA4fQ.Z-zts13X1S6HToryFaznN9oMuKSiPHl4ozjde6dMaUI'
+    token='eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3FteWFhcGkuNTFsaWFuZHUuY29tL3YxL2F1dGhvcml6YXRpb25zIiwiaWF0IjoxNTM0NDczOTMwLCJleHAiOjc1MzQ0NzM4NzAsIm5iZiI6MTUzNDQ3MzkzMCwianRpIjoiTmRrZUhLdlg3Q0RNbzFxWSIsInN1YiI6ODMwMTA1Mjg2fQ.O_aot6sShFJgb2wcrxo_D9YZySl2EPIG_Ez7m5wwheo'
     headers = config.HEADER_ANDROID
     headers.update({'Authorization':'Bearer ' + token})
 
@@ -39,7 +42,7 @@ if __name__ == '__main__':
     print u'当前gxb_token：',gxb_token
 
     # 芝麻授权地址
-    baseurl= "https://prod.gxb.io/v2/auth/sesame_multiple"
-    burl ="https://bjzapi.51mingyao.com/v1/gxb/get_auth_result/900000008/sesame_multiple"
-    url = baseurl+"?"+burl+"&token="+gxb_token
+    baseurl = "https://prod.gxb.io/v2/auth/sesame_multiple"
+    burl =host + "/v1/gxb/get_auth_result/830105286/sesame_multiple"
+    url = baseurl + "?" + burl + "&token=" + gxb_token
     print url

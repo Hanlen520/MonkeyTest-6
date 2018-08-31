@@ -19,7 +19,7 @@ from django.contrib import admin
 from newapp.views import *
 import settings
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    # url(r'^admin/', admin.site.urls),
     url(r'^$', index),
     url(r'^add/$', add, name='add'),
     # url(r'^add2/(\d+)/(\d+)/$', add2, name='add2'),

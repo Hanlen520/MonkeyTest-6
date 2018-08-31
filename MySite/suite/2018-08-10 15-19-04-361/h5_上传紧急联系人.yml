@@ -1,0 +1,27 @@
+-   !!python/unicode 'config':
+        !!python/unicode 'name': !!python/unicode 'base_url config'
+        !!python/unicode 'request':
+            !!python/unicode 'base_url': !!python/unicode 'http://h5.h5.51lianqian.net:7035'
+-   !!python/unicode 'test':
+        !!python/unicode 'name': "h5_\u4E0A\u4F20\u7D27\u6025\u8054\u7CFB\u4EBA"
+        !!python/unicode 'parameters': {}
+        !!python/unicode 'request':
+            !!python/unicode 'headers':
+                !!python/unicode 'Authorization': !!python/unicode 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYXBpLmg1LjUxbGlhbnFpYW4ubmV0OjcwMzUvdjEvaDUvdXNlci9sb2dpbiIsImlhdCI6MTUzMjQ5OTUzNCwiZXhwIjoyMTMyNDk5NDc0LCJuYmYiOjE1MzI0OTk1MzQsImp0aSI6IkxXejlNQ3RBMmpGdlZweTIiLCJzdWIiOjEwMTQ5ODk0fQ.jRlP2r1MdEYvmL_vbCounMmPy2f4jlFw-1svbfXA9v0'
+            !!python/unicode 'json':
+                !!python/unicode 'contact':
+                -   !!python/unicode 'name': !!python/unicode '12'
+                    !!python/unicode 'phone': !!python/unicode '17682326879'
+                    !!python/unicode 'relation': 3
+                    !!python/unicode 'title': "\u7D27\u6025\u8054\u7CFB\u4EBA\u4E00"
+                -   !!python/unicode 'name': !!python/unicode '23'
+                    !!python/unicode 'phone': !!python/unicode '17682326879'
+                    !!python/unicode 'relation': 1
+                    !!python/unicode 'title': "\u7D27\u6025\u8054\u7CFB\u4EBA\u4E8C"
+                -   !!python/unicode 'name': !!python/unicode '143'
+                    !!python/unicode 'phone': !!python/unicode '17682326879'
+                    !!python/unicode 'relation': 1
+                    !!python/unicode 'title': "\u7D27\u6025\u8054\u7CFB\u4EBA\u4E09"
+                !!python/unicode 'sign': !!python/unicode 'gsadfpoijfhAAFffasd234nkh345'
+            !!python/unicode 'method': !!python/unicode 'POST'
+            !!python/unicode 'url': !!python/unicode '/service/v1/urgent-contact'

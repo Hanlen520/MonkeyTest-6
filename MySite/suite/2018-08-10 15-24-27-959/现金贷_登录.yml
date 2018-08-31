@@ -1,0 +1,15 @@
+-   !!python/unicode 'config':
+        !!python/unicode 'name': !!python/unicode 'base_url config'
+        !!python/unicode 'request':
+            !!python/unicode 'base_url': !!python/unicode 'http://api.xjd.51lianqian.net:7035'
+-   !!python/unicode 'test':
+        !!python/unicode 'name': "\u73B0\u91D1\u8D37_\u767B\u5F55"
+        !!python/unicode 'parameters': {}
+        !!python/unicode 'request':
+            !!python/unicode 'data':
+                !!python/unicode 'password': !!python/unicode 'qwe123'
+                !!python/unicode 'phone': !!python/unicode '18192496382'
+            !!python/unicode 'headers':
+                !!python/unicode 'platform': !!python/unicode 'ios'
+            !!python/unicode 'method': !!python/unicode 'POST'
+            !!python/unicode 'url': !!python/unicode '/v1/h5/user/login'

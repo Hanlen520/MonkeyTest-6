@@ -37,7 +37,6 @@ def login_fun():
         print 'response:',str_content.decode("unicode-escape")
         print 'token:',token
     return token
-# token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2x4YmFwaS41MWx1b2NoZW5nLmNvbS92MS9hdXRob3JpemF0aW9ucyIsImlhdCI6MTUzMzg2ODg0MCwiZXhwIjo3NTMzODY4NzgwLCJuYmYiOjE1MzM4Njg4NDAsImp0aSI6Ilh1UzBQdzM3dGFpVjA5b2kiLCJzdWIiOjcwMDAwMTA4MX0.zRXiBURihsrn9OeZrCEYRX_TEprFokVJypkS_3erhSA
 
 if __name__ == '__main__':
     login_fun()
